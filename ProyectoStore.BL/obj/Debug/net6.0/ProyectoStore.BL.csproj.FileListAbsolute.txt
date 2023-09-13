@@ -1,0 +1,5 @@
+C:\Users\MINEDUCYT\Downloads\store project\ProyectoStore\ProyectoStore.BL\obj\Debug\net6.0\ProyectoStore.BL.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Downloads\store project\ProyectoStore\ProyectoStore.BL\obj\Debug\net6.0\ProyectoStore.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINEDUCYT\Downloads\store project\ProyectoStore\ProyectoStore.BL\obj\Debug\net6.0\ProyectoStore.BL.AssemblyInfoInputs.cache
+C:\Users\MINEDUCYT\Downloads\store project\ProyectoStore\ProyectoStore.BL\obj\Debug\net6.0\ProyectoStore.BL.AssemblyInfo.cs
+C:\Users\MINEDUCYT\Downloads\store project\ProyectoStore\ProyectoStore.BL\obj\Debug\net6.0\ProyectoStore.BL.csproj.CoreCompileInputs.cache

@@ -12,9 +12,9 @@ namespace ProyectoStore.EN
     {
         [Key]
         public int Id { get; set; }
-        [Required(ErrorMessage = "Nombre es Obligatorio")]
+        [Required(ErrorMessage = "Nombre es Obligatori o")]
         [StringLength(70, ErrorMessage = "Maximo 70 Caracteres")]
-        public string Nomnre { get; set; }
+        public string Nombre { get; set; }
         [Required(ErrorMessage = "Detalle es Obligatorio")]
         [StringLength(500, ErrorMessage = "Maximo 500 Caracteres")]
         public string Detalle { get; set; }
