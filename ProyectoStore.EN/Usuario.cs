@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoStore.EN
 {
-    internal class Usuario
+    public class Usuario
     {
     }
 }
