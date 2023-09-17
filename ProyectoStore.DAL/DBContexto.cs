@@ -13,6 +13,9 @@ namespace ProyectoStore.DAL
     {
         public DbSet<Rol> Rol { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<Laptons> Laptons { get; set; }
+        public DbSet<SmartPhone> SmartPhone { get; set; }
+
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
