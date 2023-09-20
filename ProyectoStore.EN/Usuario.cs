@@ -1,12 +1,56 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace ProyectoStore.EN
 {
     public class Usuario
     {
+        [Key]
+        public int Id { get; set; }
+        [ForeignKey("Rol")]
+        [Required(ErrorMessage = "Rol es Obligatorio")]
+        [Display(Name = "Rol")]
+        public int IdRol { get; set; }
+        [Required(ErrorMessage = "Nombre es Obligatorio")]
+        [StringLength(30, ErrorMessage = "Maximo 30 Caracteres")]
+        public string Nombre { get; set; }
+        [Required(ErrorMessage = "Apellido es Obligatorio")]
+        [StringLength(30, ErrorMessage = "Maximo 30 Caracteres")]
+        public string Apellido { get; set; }
+        [Required(ErrorMessage = "Nombre Usuario es Obligatorio")]
+        [StringLength(30, ErrorMessage = "Maximo 30 Caracteres")]
+        public string Usuarios { get; set; }
+        [Required(ErrorMessage = "Contraseña es Obligatorio")]
+        [DataType(DataType.Password)]
+        [StringLength(33, ErrorMessage = "Contraseña debe estar entre 5 a 33 caracteres", MinimumLength = 5)]
+        public string Contraseña { get; set; }
+        [Required(ErrorMessage = "Estatus es Obligatorio")]
+        public byte Estatus { get; set; }
+        [Display(Name = "Fecha de Registro")]
+        public DateTime FechaRegistro { get; set; }
+
+        public Rol Rol { get; set; }
+        [NotMapped]
+        public int Top_Aux { get; set; }
+        [NotMapped]
+        [Required(ErrorMessage = "Confirmar Password es Obligatorio")]
+        [DataType(DataType.Password)]
+        [Compare("Pass", ErrorMessage = "Password y Confirmar Password deben ser igualew")]
+        [StringLength(33, ErrorMessage = "Password debe estar entre 5 a 33 caracteres", MinimumLength = 5)]
+        [Display(Name = "Confirmar Password")]
+        public string ConfirmContraseña_Aux { get; set; }
+    }
+
+    public enum Estatus_Usuario
+    {
+        ACTIVO = 1,
+        INACTIVO = 2
     }
 }
+

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 
 using Microsoft.EntityFrameworkCore;
-using ProyectoStore.EN;
+
 
 namespace ProyectoStore.DAL
 {
@@ -31,10 +31,10 @@ namespace ProyectoStore.DAL
             using (var dbContexto = new DBContexto())
             {
                 var comprar = await dbContexto.Comprar.FirstOrDefaultAsync(s => s.Id == pComprar.Id);
-                comprar.NOMBRE = pComprar.Nombre;
-                comprar.APELLIDO = pComprar.Apellido;
-                comprar.NUMTELEFONO = pComprar.Telefono;
-                comprar.DIRECCION = pComprar.Direccion;
+                comprar.Nombre = pComprar.Nombre;
+                comprar.Apellido = pComprar.Apellido;
+                comprar.Telefono = pComprar.Telefono;
+                comprar.Direccion = pComprar.Direccion;
                 dbContexto.Update(comprar);
                 result = await dbContexto.SaveChangesAsync();
             }
@@ -92,8 +92,7 @@ namespace ProyectoStore.DAL
             if (!string.IsNullOrWhiteSpace(pComprar.Direccion))
                 pQuery = pQuery.Where(s => s.Direccion.Contains(pComprar.Direccion));
 
-            if (pComprar.Top_Aux > 0)
-                pQuery = pQuery.Take(pComprar.Top_Aux).AsQueryable();
+          
             return pQuery;
         }
         public static async Task<List<Comprar>> BuscarAsync(Comprar pComprar)

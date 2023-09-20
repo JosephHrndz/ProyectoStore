@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ProyectoStore.DAL
 {
-    internal class UsuarioDAL
+    public class UsuarioDAL
     {
 
         private static void EncriptarMD5(Usuario pUsuario)
@@ -32,7 +32,7 @@ namespace ProyectoStore.DAL
             var loginUsuarioExiste = await pDbContexto.Usuario.FirstOrDefaultAsync(
                 s => s.Usuarios == pUsuario.Usuarios && s.Id != pUsuario.Id);
             if (loginUsuarioExiste != null && loginUsuarioExiste.Id > 0 &&
-               loginUsuarioExiste.Login == pUsuario.Usuarios)
+               loginUsuarioExiste.Usuarios == pUsuario.Usuarios)
                 result = true;
             return result;
         }
@@ -71,7 +71,7 @@ namespace ProyectoStore.DAL
                     usuario.IdRol = pUsuario.IdRol;
                     usuario.Nombre = pUsuario.Nombre;
                     usuario.Apellido = pUsuario.Apellido;
-                    usuario.Usuario = pUsuario.Usuarios;
+                    usuario.Usuarios = pUsuario.Usuarios;
                     usuario.Estatus = pUsuario.Estatus;
                     dBContexto.Update(usuario);
                     result = await dBContexto.SaveChangesAsync();
@@ -186,10 +186,10 @@ namespace ProyectoStore.DAL
             using (var dbContexto = new DBContexto())
             {
                 var usuario = await dbContexto.Usuario.FirstOrDefaultAsync(s => s.Id == pUsuario.Id);
-                if (usuarioAnt.Contraseña == usuario.Comtraseña.Trim())
+                if (usuarioAnt.Contraseña == usuario.Contraseña.Trim())
                 {
                     EncriptarMD5(pUsuario);
-                    usuario.    contraseña = pUsuario.Contraseña;
+                    usuario.Contraseña = pUsuario.Contraseña;
                     dbContexto.Update(usuario);
                     result = await dbContexto.SaveChangesAsync();
                 }

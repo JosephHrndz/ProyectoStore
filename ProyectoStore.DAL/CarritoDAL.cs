@@ -29,10 +29,10 @@ namespace ProyectoStore.DAL
             using (var dbContexto = new DBContexto())
             {
                 var carrito = await dbContexto.Carrito.FirstOrDefaultAsync(s => s.Id == pCarrito.Id);
-                carrito.NOMBREPRODUCTO = pCarrito.NombreProducto;
-                carrito.PRECIO = pCarrito.Precio;
-                carrito.ENVIO = pCarrito.Envio;
-                carrito.TOTALAPAGAR = pCarrito.TotalApagar;
+                carrito.NombreProducto = pCarrito.NombreProducto;
+                carrito.Precio = pCarrito.Precio;
+                carrito.Envio = pCarrito.Envio;
+                carrito.TotalApagar = pCarrito.TotalApagar;
                 dbContexto.Update(carrito);
                 result = await dbContexto.SaveChangesAsync();
             }
@@ -90,8 +90,6 @@ namespace ProyectoStore.DAL
             if (pCarrito.TotalApagar > 0)
                 pQuery = pQuery.Where(s => s.TotalApagar == pCarrito.TotalApagar);
 
-            if (pCarrito.Top_Aux > 0)
-                pQuery = pQuery.Take(pCarrito.Top_Aux).AsQueryable();
             return pQuery;
         }
         public static async Task<List<Carrito>> BuscarAsync(Carrito pCarrito)
