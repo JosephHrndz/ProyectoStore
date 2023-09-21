@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Downloads\\mieroles\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {}
+    "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Downloads\\mieroles\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+    "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\mieroles\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
+        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
         "projectName": "ProyectoStore.EN",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\mieroles\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
+        "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
         "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\mieroles\\ProyectoStore\\ProyectoStore.EN\\obj\\",
+        "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
