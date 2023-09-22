@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {}
+    "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {
+    "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj",
+        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj",
         "projectName": "ProyectoStore.BL",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj",
+        "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj",
         "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.BL\\obj\\",
+        "outputPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.BL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,11 +33,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj": {
-                "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj"
+              "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj": {
+                "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj"
               },
-              "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
-                "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
+              "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+                "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
               }
             }
           }
@@ -67,18 +67,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj": {
+    "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
         "projectName": "ProyectoStore.DAL",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
+        "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
         "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.DAL\\obj\\",
+        "outputPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
-                "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
+              "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+                "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
               }
             }
           }
@@ -137,18 +137,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+    "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
+        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
         "projectName": "ProyectoStore.EN",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
+        "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
         "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\obj\\",
+        "outputPath": "C:\\Users\\MINEDUCYT\\Documents\\ProyectoStore\\ProyectoStore\\ProyectoStore.EN\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,7 +197,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
