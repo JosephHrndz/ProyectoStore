@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ProyectoStore.EN
 {
-    public class Laptons
+    public class Laptops
     {
         [Key]
         public int Id { get; set; }
@@ -24,6 +24,7 @@ namespace ProyectoStore.EN
         [Required(ErrorMessage = "Carrito es Obligatorio")]
         [Display(Name = "Carrito")]
         public int IdCarrito { get; set; }
+        [NotMapped]
         public int Top_Aux { get; set; }
     }
 }

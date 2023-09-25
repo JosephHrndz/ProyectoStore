@@ -10,9 +10,9 @@ using ProyectoStore.EN;
 
 namespace ProyectoStore.DAL
 {
-    public class LaptonsDAL
+    public class LaptopsDAL
     {
-        public static async Task<int> CrearAsync(Laptons pLaptons)
+        public static async Task<int> CrearAsync(Laptops pLaptons)
         {
             int result = 0;
             using (var dbContexto = new DBContexto())
@@ -22,7 +22,7 @@ namespace ProyectoStore.DAL
             }
             return result;
         }
-        public static async Task<int> ModificarAsync(Laptons pLaptons)
+        public static async Task<int> ModificarAsync(Laptops pLaptons)
         {
             int result = 0;
             using (var dbContexto = new DBContexto())
@@ -37,7 +37,7 @@ namespace ProyectoStore.DAL
             }
             return result;
         }
-        public static async Task<int> EliminarAsync(Laptons pLaptons)
+        public static async Task<int> EliminarAsync(Laptops pLaptons)
         {
             int result = 0;
             using (var dbContexto = new DBContexto())
@@ -48,25 +48,25 @@ namespace ProyectoStore.DAL
             }
             return result;
         }
-        public static async Task<List<Laptons>> ObtenerTodosAsync()
+        public static async Task<List<Laptops>> ObtenerTodosAsync()
         {
-            var laptonss = new List<Laptons>();
+            var laptonss = new List<Laptops>();
             using (var dbContexto = new DBContexto())
             {
                 laptonss = await dbContexto.Laptons.ToListAsync();
             }
             return laptonss;
         }
-        public static async Task<Laptons> ObtenerPorIdAsync(Laptons pLaptons)
+        public static async Task<Laptops> ObtenerPorIdAsync(Laptops pLaptons)
         {
-            var laptons = new Laptons();
+            var laptons = new Laptops();
             using (var dbContexto = new DBContexto())
             {
                 laptons = await dbContexto.Laptons.FirstOrDefaultAsync(s => s.Id == pLaptons.Id);
             }
             return laptons;
         }
-        internal static IQueryable<Laptons> QuerySelect(IQueryable<Laptons> pQuery, Laptons pLaptons)
+        internal static IQueryable<Laptops> QuerySelect(IQueryable<Laptops> pQuery, Laptops pLaptons)
         {
             if (pLaptons.Id > 0)
                 pQuery = pQuery.Where(s => s.Id == pLaptons.Id);
@@ -83,9 +83,9 @@ namespace ProyectoStore.DAL
                 pQuery = pQuery.Take(pLaptons.Top_Aux).AsQueryable();
             return pQuery;
         }
-        public static async Task<List<Laptons>> BuscarAsync(Laptons pLaptons)
+        public static async Task<List<Laptops>> BuscarAsync(Laptops pLaptons)
         {
-            var laptoness = new List<Laptons>();
+            var laptoness = new List<Laptops>();
             using (var dbContexto = new DBContexto())
             {
                 var select = dbContexto.Laptons.AsQueryable();

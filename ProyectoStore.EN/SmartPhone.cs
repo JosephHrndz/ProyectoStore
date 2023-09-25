@@ -24,6 +24,7 @@ namespace ProyectoStore.EN
         [Required(ErrorMessage = "Carrito es Obligatorio")]
         [Display(Name = "Carrito")]
         public int IdCarrito { get; set; }
+        [NotMapped]
         public int Top_Aux { get; set; }
     }
 }

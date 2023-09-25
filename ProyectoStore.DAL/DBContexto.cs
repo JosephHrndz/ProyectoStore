@@ -13,7 +13,7 @@ namespace ProyectoStore.DAL
     {
         public DbSet<Rol> Rol { get; set; }
         public DbSet<Usuario> Usuario { get; set; }
-        public DbSet<Laptons> Laptons { get; set; }
+        public DbSet<Laptops> Laptons { get; set; }
         public DbSet<SmartPhone> SmartPhone { get; set; }
         public DbSet<Tablets> Tablets { get; set; }
         public DbSet<Carrito> Carrito { get; set; }
@@ -22,7 +22,7 @@ namespace ProyectoStore.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=JOSEPH;Initial Catalog=TIENDA;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=ALBERTH;Initial Catalog=TIENDA;Integrated Security=True;Trust Server Certificate=true;");
         }
 
     }
