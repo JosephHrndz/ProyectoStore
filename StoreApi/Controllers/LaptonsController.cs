@@ -14,24 +14,24 @@ namespace StoreApi.Controllers
     [ApiController]
     public class LaptonsController : Controller
     {
-        private LaptopsBL laptonsBL = new LaptopsBL();
+        private LaptonsBL laptonsBL = new LaptonsBL();
 
         [HttpGet]
-        public async Task<IEnumerable<Laptops>> Get()
+        public async Task<IEnumerable<Laptons>> Get()
         {
             return await laptonsBL.ObtenerTodosAsync();
         }
 
         [HttpGet("{id}")]
-        public async Task<Laptops> Get(int id)
+        public async Task<Laptons> Get(int id)
         {
-            Laptops laptons = new Laptops();
+            Laptons laptons = new Laptons();
             laptons.Id = id;
             return await laptonsBL.ObtenerPorIdAsync(laptons);
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post([FromBody] Laptops laptons)
+        public async Task<ActionResult> Post([FromBody] Laptons laptons)
         {
             try
             {
@@ -45,7 +45,7 @@ namespace StoreApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Laptops laptons)
+        public async Task<ActionResult> Put(int id, [FromBody] Laptons laptons)
         {
             if (laptons.Id == id)
             {
@@ -63,7 +63,7 @@ namespace StoreApi.Controllers
         {
             try
             {
-                Laptops laptons = new Laptops();
+                Laptons laptons = new Laptons();
                 laptons.Id = id;
                 await laptonsBL.EliminarAsync(laptons);
                 return Ok();
@@ -75,14 +75,14 @@ namespace StoreApi.Controllers
         }
 
         [HttpPost("Buscar")]
-        public async Task<List<Laptops>> Buscar([FromBody] object pLaptons)
+        public async Task<List<Laptons>> Buscar([FromBody] object pLaptons)
         {
             var option = new JsonSerializerOptions
             {
                 PropertyNameCaseInsensitive = true
             };
             string strLaptons = JsonSerializer.Serialize(pLaptons);
-            Laptops laptons = JsonSerializer.Deserialize<Laptops>(strLaptons, option);
+            Laptons laptons = JsonSerializer.Deserialize<Laptons>(strLaptons, option);
             return await laptonsBL.BuscarAsync(laptons);
         }
     }

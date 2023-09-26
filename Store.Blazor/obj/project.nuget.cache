@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SFl/M9vF4bCT6n9kJoT+Tjzq/krbYGurFEhYVclRGtYYGqh1aH8W27hWiNYz4yMWKS+gOBSBwn9Na88Vg71GxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512"
+  ],
+  "logs": []
+}
