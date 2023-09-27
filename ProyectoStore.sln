@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoStore.EN", "Proyect
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApi", "StoreApi\StoreApi.csproj", "{33E5B226-4CB6-469E-89F8-A5B4BDB6B733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Blazor", "Store.Blazor\Store.Blazor.csproj", "{45150FF0-4DEA-4779-9CA5-FAE87FAB3D15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Blazor", "Store.Blazor\Store.Blazor.csproj", "{45150FF0-4DEA-4779-9CA5-FAE87FAB3D15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

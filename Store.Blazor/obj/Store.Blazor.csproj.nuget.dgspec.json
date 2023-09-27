@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj": {}
+    "C:\\Users\\MINEDUCYT\\Documents\\StoreProyecto\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj": {
+    "C:\\Users\\MINEDUCYT\\Documents\\StoreProyecto\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj",
+        "projectUniqueName": "C:\\Users\\MINEDUCYT\\Documents\\StoreProyecto\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj",
         "projectName": "Store.Blazor",
-        "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj",
+        "projectPath": "C:\\Users\\MINEDUCYT\\Documents\\StoreProyecto\\ProyectoStore\\Store.Blazor\\Store.Blazor.csproj",
         "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\Store.Blazor\\obj\\",
+        "outputPath": "C:\\Users\\MINEDUCYT\\Documents\\StoreProyecto\\ProyectoStore\\Store.Blazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,12 +44,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
-              "target": "Package",
-              "version": "[1.17.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -69,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
