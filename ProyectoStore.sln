@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoStore.EN", "Proyect
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApi", "StoreApi\StoreApi.csproj", "{33E5B226-4CB6-469E-89F8-A5B4BDB6B733}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Blazor", "Store.Blazor\Store.Blazor.csproj", "{45150FF0-4DEA-4779-9CA5-FAE87FAB3D15}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{33E5B226-4CB6-469E-89F8-A5B4BDB6B733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33E5B226-4CB6-469E-89F8-A5B4BDB6B733}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33E5B226-4CB6-469E-89F8-A5B4BDB6B733}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45150FF0-4DEA-4779-9CA5-FAE87FAB3D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45150FF0-4DEA-4779-9CA5-FAE87FAB3D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45150FF0-4DEA-4779-9CA5-FAE87FAB3D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45150FF0-4DEA-4779-9CA5-FAE87FAB3D15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

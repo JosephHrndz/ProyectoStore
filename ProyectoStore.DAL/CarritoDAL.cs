@@ -29,7 +29,7 @@ namespace ProyectoStore.DAL
             using (var dbContexto = new DBContexto())
             {
                 var carrito = await dbContexto.Carrito.FirstOrDefaultAsync(s => s.Id == pCarrito.Id);
-                carrito.NombreProducto = pCarrito.NombreProducto;
+                carrito.NombreDeProducto = pCarrito.NombreDeProducto;
                 carrito.Precio = pCarrito.Precio;
                 carrito.Envio = pCarrito.Envio;
                 carrito.TotalApagar = pCarrito.TotalApagar;
@@ -76,8 +76,8 @@ namespace ProyectoStore.DAL
         {
             if (pCarrito.Id > 0)
                 pQuery = pQuery.Where(s => s.Id == pCarrito.Id);
-            if (!string.IsNullOrWhiteSpace(pCarrito.NombreProducto))
-                pQuery = pQuery.Where(s => s.NombreProducto.Contains(pCarrito.NombreProducto));
+            if (!string.IsNullOrWhiteSpace(pCarrito.NombreDeProducto))
+                pQuery = pQuery.Where(s => s.NombreDeProducto.Contains(pCarrito.NombreDeProducto));
             pQuery = pQuery.OrderByDescending(s => s.Id).AsQueryable();
 
             if (pCarrito.Precio > 0)

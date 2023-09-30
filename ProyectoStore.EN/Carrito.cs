@@ -13,7 +13,7 @@ namespace ProyectoStore.EN
         public int Id { get; set; }
         [Required(ErrorMessage = "Nombre de Producto es Obligatorio")]
         [StringLength(100, ErrorMessage = "Maximo 100 Caracteres")]
-        public string NombreProducto { get; set; }
+        public string NombreDeProducto { get; set; }
         [Required(ErrorMessage = "Precio es Obligatorio")]
         public int Precio { get; set; }
         [Required(ErrorMessage = "Envio es Obligatorio")]

@@ -3000,11 +3000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\StoreApi\\StoreApi.csproj",
+      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\StoreApi\\StoreApi.csproj",
       "projectName": "StoreApi",
-      "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\StoreApi\\StoreApi.csproj",
+      "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\StoreApi\\StoreApi.csproj",
       "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\StoreApi\\obj\\",
+      "outputPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\StoreApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3026,11 +3026,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj"
+            "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {
+              "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj"
             },
-            "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\otravez\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
+            "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+              "projectPath": "C:\\Users\\MINEDUCYT\\Downloads\\STORE\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
             }
           }
         }
