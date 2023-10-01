@@ -41,10 +41,10 @@ namespace ProyectoStore.EN
         [NotMapped]
         [Required(ErrorMessage = "Confirmar Password es Obligatorio")]
         [DataType(DataType.Password)]
-        [Compare("Pass", ErrorMessage = "Password y Confirmar Password deben ser igualew")]
+        [Compare("Password", ErrorMessage = "Password y Confirmar Password deben ser igualew")]
         [StringLength(33, ErrorMessage = "Password debe estar entre 5 a 33 caracteres", MinimumLength = 5)]
         [Display(Name = "Confirmar Password")]
-        public string ConfirmContraseña_Aux { get; set; }
+        public string ConfirmPassword_Aux { get; set; }
     }
 
     public enum Estatus_Usuario

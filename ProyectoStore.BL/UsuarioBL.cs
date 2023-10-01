@@ -42,5 +42,20 @@ namespace ProyectoStore.BL
 
             return await UsuarioDAL.BuscarAsync(pUsuario);
         }
+        public async Task<List<Usuario>> BuscarIncluirRolesAsync(Usuario pUsuario)
+        {
+
+            return await UsuarioDAL.BuscarIncluirRolesAsync(pUsuario);
+        }
+
+        public async Task<Usuario> LoginAsync(Usuario pUsuario)
+        {
+            return await UsuarioDAL.LoginAsync(pUsuario);
+        }
+
+        public async Task<int> cambiarPasswordAsync(Usuario pUsuario, string pPasswordAnterior)
+        {
+            return await UsuarioDAL.cambiarPasswordAsync(pUsuario, pPasswordAnterior);
+        }
     }
 }
