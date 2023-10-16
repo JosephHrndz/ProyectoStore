@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.PruebasUnitarias\\ProyectoStore.PruebasUnitarias.csproj": {}
+  },
+  "projects": {
+    "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj",
+        "projectName": "ProyectoStore.BL",
+        "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj",
+        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
+        "outputPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj": {
+                "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj"
+              },
+              "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+                "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
+        "projectName": "ProyectoStore.DAL",
+        "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
+        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
+        "outputPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+                "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23111.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
+        "projectName": "ProyectoStore.EN",
+        "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj",
+        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
+        "outputPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.PruebasUnitarias\\ProyectoStore.PruebasUnitarias.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.PruebasUnitarias\\ProyectoStore.PruebasUnitarias.csproj",
+        "projectName": "ProyectoStore.PruebasUnitarias",
+        "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.PruebasUnitarias\\ProyectoStore.PruebasUnitarias.csproj",
+        "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
+        "outputPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.PruebasUnitarias\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj": {
+                "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.BL\\ProyectoStore.BL.csproj"
+              },
+              "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj": {
+                "projectPath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.EN\\ProyectoStore.EN.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

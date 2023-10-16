@@ -22,7 +22,7 @@ namespace ProyectoStore.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=ALBERTH;Initial Catalog=TIENDA;Integrated Security=True;Trust Server Certificate=true;");
+            optionsBuilder.UseSqlServer(@"Data Source=localhost;Initial Catalog=TIENDA;Integrated Security=True;Trust Server Certificate=true;");
           //  optionsBuilder.UseSqlServer(@"workstation id=TiendaP.mssql.somee.com;packet size=4096;user id=Alberth_SQLLogin_1;pwd=23hqvyfe4m;data source=TiendaP.mssql.somee.com;persist security info=False;initial catalog=TiendaP");
         }
 

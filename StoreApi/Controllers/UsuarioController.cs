@@ -17,7 +17,8 @@ namespace StoreApi.Controllers
         [HttpGet]
           public async Task<IEnumerable<Usuario>> Get()
         {
-            return await usuarioBL.ObtenerTodosAsync();
+            Usuario usuario = new Usuario();
+            return await usuarioBL.BuscarIncluirRolesAsync(usuario);
         }
 
         [HttpGet("{id}")]
