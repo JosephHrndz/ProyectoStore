@@ -20,5 +20,6 @@ namespace ProyectoStore.EN
         public int Envio { get; set; }
         [Required(ErrorMessage = "Total Apagar es Obligatorio")]
         public int TotalApagar { get; set; }
+  
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WYQYBvm3kaepYKK98Zl+FnT9uWffdVppNYkHV/GqBRE/dBYP+VkRt6rZIO8DJ8qKY2Gc3v1ThwvUI5rM9+FxlQ==",
+  "dgSpecHash": "KfQQf22wp9LAFBEwOwzZCtjn+IUNek/VNPE9sGORPTm4tSWEr20KntmQojtM97PFxxZSEsXwILqGQ/QXSPqROQ==",
   "success": true,
-  "projectFilePath": "D:\\proyectoTienda+\\WepApi_Tienda\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
+  "projectFilePath": "C:\\Users\\MINEDUCYT\\Documents\\PruebasUnitarias\\ProyectoStore\\ProyectoStore.DAL\\ProyectoStore.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MINEDUCYT\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
